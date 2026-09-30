@@ -2,25 +2,25 @@
 class Ks < Formula
   desc "KeepState CLI: durable agent sessions (checkpoint, kill, wake, resume)"
   homepage "https://keepstate.ai"
-  version "0.1.18"
+  version "0.1.19"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/keepstateai/cli/releases/download/v0.1.18/ks-darwin-arm64"
-      sha256 "92815de1947ffbd3049218799b848c88e9a737cbfcbeb19f436999602f607c1a"
+      url "https://github.com/keepstateai/cli/releases/download/v0.1.19/ks-darwin-arm64"
+      sha256 "de2184107482b7551aeda66ac605657eec202d3f838ee2d94d90708aabbd4af1"
     else
-      url "https://github.com/keepstateai/cli/releases/download/v0.1.18/ks-darwin-amd64"
-      sha256 "52a8d88f628a68d248dd0c61c2152a729dbb31bbee5a93c0876d860dd986ece6"
+      url "https://github.com/keepstateai/cli/releases/download/v0.1.19/ks-darwin-amd64"
+      sha256 "2031725cfecac21e2394b741dbd58d2a8d9ede88c390330e464e975ac00f210f"
     end
   end
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/keepstateai/cli/releases/download/v0.1.18/ks-linux-arm64"
-      sha256 "82c0652672b2fb9420fbf578a4da67cbea1704b44b4105b2f8edfd017eb0a091"
+      url "https://github.com/keepstateai/cli/releases/download/v0.1.19/ks-linux-arm64"
+      sha256 "c9db9a618d5a95ed4889a27cf2ec0ec92cfe49ec44c777d91547f0468da478d9"
     else
-      url "https://github.com/keepstateai/cli/releases/download/v0.1.18/ks-linux-amd64"
-      sha256 "3a24c2cca28918851f8e6cd769e95f0811f4b55544340278eecf7dcb9b6a631a"
+      url "https://github.com/keepstateai/cli/releases/download/v0.1.19/ks-linux-amd64"
+      sha256 "9ce5de49d7269ef9e78e8aac6d7d0d111708849dc207445773a1d669e9557d3e"
     end
   end
 
